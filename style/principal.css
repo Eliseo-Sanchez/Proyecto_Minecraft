@@ -1,0 +1,602 @@
+@font-face {
+	font-family: 'Minecraft';
+	src: url("../style/minecraftfont.eot");
+	src: url("../style/minecraftfont.woff") format("woff"), url("../style/minecraft.ttf") format("truetype");
+}
+
+/*-------- ENCABEZADO ----------*/
+
+.encabezado {
+	padding: 10px;
+	background: #232526;
+	text-align: center;
+}
+
+.encabezado img {
+	width: 400px;
+}
+
+/*-------------- BOTON CREADORES -------------------*/
+
+.creadores {
+	text-align: center;
+	background: linear-gradient(#232526, #bdc3c7);
+}
+
+.boton {
+	width: 20%;
+	padding: 15px 0px;
+	margin: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	background: green;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	font-family: 'Minecraft';
+}
+
+.boton:hover {
+	background: #1F1C2C;
+	transform: scale(1.2);
+}
+
+
+/*----------------SITIO OFICIAL----------------------*/
+
+.informacion {
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    background-color: #D3CCE3;
+    padding: 2rem;
+    border-radius: 1rem;
+	margin: 30px;
+}
+
+.backsitio {
+	background-image: url("../imagenes/principal/cielo.webp");
+	background-size: cover;
+    
+}
+
+.fondo {
+	width: 40%;
+	margin: 20px 40px;
+}
+
+.textoinformacion h1{
+	font-size: 30px;
+	font-family: 'Minecraft';
+}
+
+.informacion {
+	display: flex;
+	align-items: center;
+}
+  
+.textoinformacion {
+	text-align: center;
+	flex: 1;
+	padding-left: 20px;
+}
+
+.sitiooficial {
+	text-align: center;
+	padding: 30px;
+}
+
+.botonsitio {
+	width: 20%;
+	padding: 15px 0px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	background: green;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: 'Minecraft';
+}
+
+.botonsitio:hover {
+	background: #1F1C2C;
+}
+
+/*-------------PAGINAS UTILES----------------*/
+
+.fondopaginasutiles {
+	background-image: url(../imagenes/principal/fondovista.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.paginasutiles {
+	text-align: center;
+	/*box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    background-color: #3A6073;*/
+    padding: 2rem;
+    border-radius: 1rem;
+	margin: 30px;
+}
+  
+.botonpaginas {
+	display: inline-block;
+	width: 20%;
+	height: 300px;
+	vertical-align: top;
+	margin: 20px;
+	padding: 30px;
+	border-color: #000000;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 20px;
+	background-color: aliceblue;
+}
+
+.botonpaginas:hover {
+	border-color: green;
+	border-width: 3px;
+}
+
+.botonpaginas:hover h1 {
+	font-size: 25px;
+}
+
+.botonpaginas h1 {
+	padding: 0 0 10px 0;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Minecraft';
+}
+
+.botonpaginas p {
+	margin: 25px 0 0 0;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Minecraft';
+}
+  
+.botonpaginas img {
+	width: 150px;
+}
+
+
+/*-------------CERDO Y GHAST-----------------*/
+
+.cerdobailando {
+	position: absolute;
+	top: 0px;
+	right: 30px;
+}
+
+.cerdobailando img {
+	width: 90px;
+}
+
+.ghast {
+	position: absolute;
+	top: 4px;
+	left: 30px
+}
+
+.ghast img {
+	width: 70px;
+}
+
+/*------------------- VIDEO -----------------------*/
+
+/* Estilos del contenedor principal */
+.contenedorvideo {
+    align-items: center;
+    justify-content: space-between;
+	text-align: center;
+
+	width: 70%;
+	height: 350px;
+    padding: 20px;
+	margin: 15px;
+    
+}
+
+.centrarvideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-image: url(../imagenes/principal/tierra.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contenedorvideo h1 {
+    font-size: 28px;  
+	font-weight: bold;
+	font-family: 'Minecraft';
+	color: white;
+	padding: 20px;
+}
+
+
+.video iframe {
+    width: 50%;
+    height: 250px;
+	border: 2px solid #000000;
+    border-radius: 20px;
+    background-color: aliceblue;
+	padding: 1px;
+}
+
+
+/*------------------- TEMAS -----------------------*/
+
+.contenedor-central {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenidocomojugar {
+    width: 60%;
+    margin: 15px auto; /* Centra verticalmente y con márgenes automáticos horizontalmente */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.contenidocomojugar:hover {
+	border-color: green;
+	border-width: 3px;
+}
+
+.contenidocomojugar:hover h1{
+	font-size: 40px;
+}
+
+.fondo {
+	width: 40%;
+	margin: 20px 40px;
+}
+
+.infocomojugar h1{
+	font-size: 24px;
+	font-family: 'Minecraft';
+	margin: 10px;
+}
+
+.infocomojugar p{
+	font-size: 15px;
+	font-family: 'Minecraft';
+	margin: 10px;
+}
+
+.infocomojugar a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+.contenidocomojugar {
+	display: flex;
+	align-items: center;
+}
+  
+.infocomojugar {
+	text-align: center;
+	flex: 1;
+	padding-left: 20px;
+}
+
+.contenidocomojugar img {
+	width: 120px;
+}
+
+.fondocomojugar1 {
+	background-image: url(../imagenes/principal/fondocueva.webp);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fondocomojugar2 {
+	background-image: url(../imagenes/principal/cueva.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fondocomojugar3 {
+	background-image: url(../imagenes/principal/cuevaantient.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fondocomojugar4 {
+	background-image: url(../imagenes/principal/ancientcity.avif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fondocomojugar5 {
+	background-image: url(../imagenes/principal/azulancientcity.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fondocomojugar6 {
+	background-image: url(../imagenes/principal/bedrock.avif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fondocomojugar7 {
+	background-image: url(../imagenes/principal/nether.avif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*-------------------A CARGO DE MINECRAFT-----------------------*/
+
+.fondoacargo {
+	background-image: url(../imagenes/principal/fondoend.webp);
+	background-size: cover;
+	background-repeat: no-repeat; /* Asegura que la imagen no se repita */
+ 	background-position: center; /* Centra la imagen */
+}
+
+.empresasacargo h1 {
+	color: white;
+	font-size: 30px;
+	text-decoration: underline;
+    padding: 10px;
+}
+
+.empresasacargo {
+	text-align: center;
+	padding-top: 50px;
+	box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    background-image: url(../imagenes/principal/fondoendcity.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; /* Asegura que la imagen no se repita */
+ 	background-position: center; /* Centra la imagen */
+    padding: 20px;
+    border-radius: 1rem;
+	margin: 30px;
+	font-family: 'Minecraft';
+}
+
+/*.empresa1, .empresa2, .empresa3 {
+	display: inline-block;
+	width: 25%;
+	height: 250px;
+	margin: 20px 20px 0 0;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 20px;
+}*/
+
+.empresa1, .empresa2, .empresa3 {
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    margin: 20px 20px 0 0;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-color: purple;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%; /* Cambiado a 50% para hacer los contenedores circulares */
+}
+
+.empresa1:hover, .empresa2:hover, .empresa3:hover {
+    border-color: #6E48AA;
+}
+
+.empresa1:hover, .empresa2:hover, .empresa3:hover {
+	transform: rotate(3deg);
+}
+
+.empresa1 {
+	background-image: url("../imagenes/principal/logomojang.jpg");
+	background-size: cover;
+	background-repeat: no-repeat; /* Asegura que la imagen no se repita */
+ 	background-position: center; /* Centra la imagen */
+}
+
+.empresa2 {
+	background-image: url("../imagenes/principal/logoxbox.png");
+	background-size: cover;
+	background-repeat: no-repeat; /* Asegura que la imagen no se repita */
+	background-position: center; /* Centra la imagen */
+}
+
+.empresa3 {
+	background-image: url("../imagenes/principal/logomicrosoft.jpg");
+	background-size: cover;
+	background-repeat: no-repeat; /* Asegura que la imagen no se repita */
+	background-position: center; /* Centra la imagen */
+}
+
+/*------------ MAIN ----------------------*/
+
+main {
+	background-color: black;
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+/*------------- CARRUSEL ---------------*/
+
+.centrarcarrusel {
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+    justify-content: center;
+	background-image: url(../imagenes/principal/fondocarrusel.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.contenedorcarrusel {
+    text-align: center;
+    width: 50%;
+    /*background-color: #232526;*/
+
+	margin: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background-image: url(../imagenes/principal/fondonether.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;  
+}
+
+.contenedorcarrusel h1 {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Minecraft';
+	margin: 0 0 20px 0;
+	color: white;
+}
+
+.imgotrosjuegos {
+    position: relative;
+    display: inline-block;
+}
+
+.otrojuego {
+    display: none;
+    text-align: center;
+}
+
+.otrojuego img {
+    width: 250px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    user-select: none;
+    border: solid #fff 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.next {
+    right: -100px;
+}
+
+.prev {
+    left: -100px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.elements {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quadrate {
+    cursor: pointer;
+    height: 4px;
+    width: 50px;
+    margin: 0 2px;
+    background-color: #717171;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 2px;
+}
+
+.active,
+.quadrate:hover {
+    background-color: #fff;
+}
+
+/*-------------EFECTO DE LA IMAGEN CARRUSEL----------------*/
+
+.otrojuego{
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+  
+.otrojuego img {
+	transition: transform 0.3s ease-in-out;
+}
+  
+.otrojuego::before {
+	background: rgba(255, 255, 255, 0);
+	transition: background 0.3s ease-in-out;
+	z-index: -1;
+}
+  
+.otrojuego:hover img {
+	transform: scale(1.1);
+}  
+
+/*-------------PORTAL AL END----------------*/
+
+.portalend {
+	text-align: center;
+	background-image: url(../imagenes/principal/fondoend.webp);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.portalend img {
+	width: 30%;
+	margin: 15px;
+}
+
+/*-------------FOOTER----------------*/
+
+footer {
+	background-image: url("../imagenes/principal/fondofooter.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 13px;
+}
+
+footer h1 {
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	font-family: 'Minecraft';
+}
+
+footer img {
+	width: 150px;
+	padding: 20px;
+}

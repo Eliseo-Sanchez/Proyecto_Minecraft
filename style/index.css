@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'Minecraft';
+  src: url("../style/minecraftfont.eot");
+  src: url("../style/minecraftfont.woff") format("woff"), url("../style/minecraft.ttf") format("truetype");
+}
+
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
+/*------------ FONDO PANORAMA ----------------*/
+
+body {
+	image-rendering: pixelated;
+	text-align: center;
+	font-family: 'Minecraft';
+	text-shadow: 0.2vw 0.2vw 0 #383838;
+	min-height: 100%;
+	margin: 0;  /*Utilizar reset*/
+}
+
+.panorama {
+	image-rendering: auto;
+	background: #303030 url("../imagenes/index/panorama.jpg") repeat-x 0 0;
+	background-size: cover;
+	animation: MinecraftBackground 180s linear infinite;
+	backdrop-filter: blur(5px);
+}
+
+/*------------------ LOGO ------------------*/
+
+.logo {
+	margin-top: 3%;
+	width: 50%;
+}
+
+.textoanimado {
+	margin: -3.5% 0 0 45%;
+	transform: rotate(-20deg);
+	animation: FlashingText 0.5s ease-in-out infinite;
+	color: #FFFF00;
+	font-size: 2vw;
+}
+
+/*-------------- BOTONES -------------------------*/
+
+.botones a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.botones {
+	margin: 7% 0 0 30%;
+	width: 40%;
+}
+
+.boton {
+	/* padding: 0.2% 50vw; */
+	padding: 0.2vw 0 0.8vw 0;
+	margin: 0 auto 2% auto;
+	background: #7D7D7D url("../imagenes/index/botones.png") no-repeat center;
+	background-size: 100% 300%;
+	color: #E0E0E0;
+	font-size: 1.2vw;
+	outline: 0.2vw solid #000;
+	outline-offset: -0.2vw;
+}
+
+.botonbajo {
+	width: 49%;
+	display: inline-block;
+	margin-top: 5%;
+}
+
+.boton:hover {
+	background: #7079AA url("../imagenes/index/botones.pngg") no-repeat bottom;
+	background-size: 100% 300%;
+	color: #FFFFA0;
+}
+
+.boton span {
+	vertical-align: middle; /*LIGERO ESPACIO*/
+}
+
+.txtiz {
+	float: left;
+}
+
+.txtder {
+	float: right;
+}
+
+/*-------------------- FOOTER ----------------------*/
+
+footer {
+	position: absolute;
+	bottom: 0;			/*INFERIOR*/
+	width: 100%;
+	font-size: 1.2vw; 	/*MOVIL*/
+	color: white;
+}
+
+footer span {
+	margin: 0 10px 5px 10px;
+}
+
+/*------------ ANIMACIONES TEXTO Y FONDO ---------------------*/
+
+@keyframes FlashingText {
+	0% {
+		transform: scale(1) rotate(-20deg);
+	}
+	50% {
+		transform: scale(1.05) rotate(-20deg);
+	}
+	100% {
+		transform: scale(1) rotate(-20deg);
+	}
+}
+@keyframes MinecraftBackground {
+	100% {
+		background-position-x: 1000%;
+	}
+}
