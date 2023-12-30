@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Dimensiones</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="back">
+            <a href="#">
+                <img src="img/pagina/mineloogo.png" alt="Imagen Central" />
+            </a>
+        </div>
+    </header>
+    <!--ENCABEZADO-->
+    <div class="encabezado" id="encabezado">
+        <div class="texto">
+            <h1>Comercio</h1>
+            <p>
+                El sistema de comercio es una mecánica de juego que permite a los jugadores comerciar principalmente
+                esmeraldas por objetos (y viceversa) con los aldeanos y vendedores ambulantes.
+            </p>
+            <p>
+                Al pulsar usar en un aldeano adulto con una profesión, o en un vendedor ambulante, se abre un menú que
+                permite al jugador comerciar con el aldeano o vendedor ambulante. Esta acción detiene la búsqueda de
+                caminos que la entidad estaba realizando. Si la entidad recibe daño durante el comercio, el menú de
+                comercio se cierra.
+            </p>
+            <p>
+                Todas las transacciones implican esmeraldas. Los aldeanos compran o venden bienes a cambio de
+                esmeraldas, y los vendedores ambulantes venden objetos a cambio de esmeraldas, pero no compran objetos.
+                El comercio es el único método legítimo para adquirir los mapas de exploración de bosques y mapas de
+                exploración de océanos y el estampado de planeta en modo supervivencia. También es la única forma
+                renovable de obtener armaduras de diamante, campanas, lapislázuli, frascos con
+                experiencia, cristal, arena, arena roja, bloques de corales y plantaformas pequeñas.
+                <div class="lista">
+                    <ul>
+                        <li><a href="#Mecanicas">Mecanicas</a></li>
+                        <li><a href="#Economia">Economia</a></li>
+                        <li><a href="#Aldeanos-no-comerciantes">Aldeanos no comerciantes</a></li>
+                        <li><a href="#Herrero-de-armaduras">Herrero de armaduras</a></li>
+                        <li><a href="#Carnicero">Carnicero</a></li>
+                        <li><a href="#Cartógrafo">Cartografo</a></li>
+                        <li><a href="#Granjero">Granjero</a></li>
+                        <li><a href="#Pescador">Pescador</a></li>
+                        <li><a href="#Flechero">Flechero</a></li>
+                        <li><a href="#Peletero">Peletero</a></li>
+                        <li><a href="#Bibliotecario">Bibliotecario</a></li>
+                        <li><a href="#Albañil">Albañil</a></li>
+                        <li><a href="#Herrero-de-herramientas">Herrero de herramientas</a></li>
+                        <li><a href="#Herrero-de-armas">Herrero de armas</a></li>
+                    </ul>
+                </div>
+            </p>
+        </div>
+        <img class="imagenn" src="img/pagina/ejemplo.png" alt="Imagen Principal">
+    </div>
+    </div>
+    <!--COMERCIO-->
+    <div class="comercio">
+        <div class="part">
+            <h1 id="Mecanicas"><a href="#encabezado">Mecanicas</a></h1>
+            <p>
+                Los aldeanos tienen cinco niveles de carrera que pueden aumentar al comerciar con ellos. Cada aldeano
+                comienza en el nivel de "novato". El nivel de un aldeano se puede ver en el menú de comercio. La
+                insignia que llevan también se puede identificar: piedra para un novato, hierro para un aprendiz, oro
+                para un oficial, esmeralda para un experto y diamante para un maestro. Comerciar hasta que la barra de
+                comercio del aldeano se llene desbloquea el siguiente nivel de comercios. Cuando un jugador comercia con
+                un aldeano, tanto el aldeano como el jugador ganan experiencia. Todos los intercambios de aldeanos
+                recompensan al jugador con 3-6 puntos de experiencia, más 5 puntos adicionales si el aldeano sube de
+                nivel debido al intercambio. Comerciar con un vendedor ambulante también recompensa al jugador con algo
+                de experiencia, aunque el vendedor no tiene niveles de experiencia que ganar. Un aldeano sube de nivel
+                cuando su barra de experiencia se llena y obtiene hasta dos comercios nuevos, además de conservar los
+                antiguos. Además, un aldeano recibe un efecto de Regeneración y se ve rodeado por partículas moradas y
+                verdes durante diez segundos.
+            </p>
+            <p>La profesión de un aldeano dicta el fondo de comercio utilizado para determinar sus comercios. Por
+                ejemplo, los aldeanos que llevan sombreros de paja son granjeros, por lo que sus comercios se basan en
+                el fondo de comercio de granjeros. Cada profesión desbloquea un conjunto predefinido y finito de
+                comercios. Se asignan diferentes profesiones a cada aldeano en función de su bloque de trabajo. Esta
+                profesión se indica en su apariencia y en la interfaz de comercio. Los aldeanos novatos que no hayan
+                comerciado pueden perder su profesión y volver a ser aldeanos desempleados si se elimina su bloque de
+                trabajo reclamado. La eliminación y posterior sustitución de un bloque de trabajo puede alterar los
+                comercios ofrecidos, y un aldeano sin experiencia restablece sus comercios cada cierto tiempo. Una vez
+                que un jugador comercia con un aldeano, este mantiene su profesión para siempre y, por tanto, bloquea
+                los comercios ofrecidos.
+            </p>
+            <div class="centered-images-container">
+                <img src="img/comercio/nivel.jpeg" alt="Descripción de la imagen 2" class="centered-image">
+            </div>
+        </div>
+        <div class="part">
+            <h1 id="Economia"><a href="#encabezado">Economia</a></h1>
+            <p>
+                los aldeanos pueden tener un máximo de 10 comercios. Cada nivel desbloquea un máximo de dos nuevos
+                comercios. Si un nivel puede sacar más de dos comercios, los dos comercios ofrecidos se eligen al azar
+                del conjunto. Cada comercio puede utilizarse un número máximo de veces, después de lo cual el comercio
+                se desactiva. Una vez desactivados los comercios, los aldeanos deben trabajar en sus correspondientes
+                bloques de trabajo para reaprovisionar sus comercios.
+            </p>
+            <p>El precio de un objeto sube y baja en función de tres factores. Los objetos con un multiplicador de
+                precios alto (0,2) se ven más afectados por estos cambios que los objetos con un multiplicador bajo
+                (0,05). Todas las fluctuaciones de precios afectan solo al primer objeto implicado en el comercio; por
+                ejemplo, para un comercio inicial de 32 palos por 1 esmeralda, el precio puede bajar a 1 palo o subir a
+                64 palos por 1 esmeralda, pero nunca por 2 esmeraldas. Además, ninguna cantidad puede ser inferior a 1
+                ni superior al tamaño de la pila.
+            </p>
+            <p>
+                El primer factor es la demanda. Un objeto que se agotó tiene un aumento de precio para todos los
+                jugadores cuando se reaprovisione. Si un jugador no comercia por un objeto de mayor precio, el precio se
+                reduce la próxima vez que el aldeano se reaprovisione. La demanda se controla por objeto, no por
+                aldeano, por lo que un aldeano puede ofrecer un comercio de mayor precio por un solo objeto mientras
+                otros objetos son más baratos. Los comercios que tienen un multiplicador de precio de 0 no se ven
+                afectados por la demanda.
+
+                La segunda forma de afectar a los precios es el efecto Héroe de la aldea, que reduce temporalmente los
+                precios para el jugador afectado en función del nivel del efecto.
+            </p>
+            <p>
+                Por último, los jugadores obtienen descuentos o multas personales en función de su reputación con ese
+                aldeano en particular. Se obtiene una reputación positiva curando aldeanos zombis (el aldeano que fue
+                curado da un descuento permanente mucho mayor que el descuento temporal en los aldeanos cercanos). Para
+                curar a un aldeano zombi, un jugador debe rociarlo con una poción arrojadiza o una flecha de debilidad y
+                luego alimentarlo con una manzana dorada. El descuento permanente tiene un límite de 5 curaciones,
+                mientras que el descuento temporal tiene un límite de 8 curaciones.
+            </p>
+            <div class="centered-images-container">
+                <img src="img/pagina/descuento.webp" alt="Descripción de la imagen 2" class="centered-image">
+            </div>
+        </div>
+        <div class="part">
+            <h1 id="Aldeanos-no-comerciantes"><a href="#encabezado">Aldeanos no comerciantes</a></h1>
+            <p>
+                <strong>Simplón: </strong>Los simplones son aldeanos con abrigos verdes. No pueden obtener una profesión.
+            </p>
+            <p>
+                <strong>Aldeano desempleado: </strong>Los aldeanos sin una superposición de trabajo no pueden comerciar.
+                Solo llevan sus atuendos de bioma. Un aldeano desempleado obtiene una profesión reclamando un bloque de
+                trabajo no reclamado. Por ejemplo, una mesa de cartografía no reclamada convierte a un aldeano
+                desempleado en un cartógrafo cuando el aldeano la reclama, y tanto el aldeano como la mesa emiten
+                partículas verdes. Un bloque de sitio de trabajo inaccesible (o destruido) hace que el aldeano conectado
+                pierda su profesión, pero eso no afecta la popularidad del jugador en la aldea.
+            </p>
+            <div class="centered-images-container">
+                <img src="img/aldeano/simplon.webp" alt="Descripción de la imagen 2" class="image2 centered-image">
+                <img src="img/aldeano/desempleado.webp" alt="Otra descripción" class="image2 centered-image">
+            </div>
+        </div>
+        <div class="part">
+            <h1 id="Herrero-de-armaduras"><a href="#encabezado">Herrero de armaduras</a></h1>
+            <p>
+                Bloque de trabajo: Alto horno
+            </p>
+            <div class="centered-images-container">
+                <img src="img/comercio/armaduras.jpeg" alt="Descripción de la imagen 2" class="image1 centered-image">
+                <img src="img/aldeano/herrero.webp" alt="Otra descripción" class="image2 centered-image">
+            </div>
+        </div>
+        <div class="part">
+            <h1 id="Carnicero"><a href="#encabezado">Carnicero</a></h1>
+            <p>
+                Bloque de trabajo: Aumador
+            </p>
+            <div class="centered-images-container">
+                <img src="img/comercio/carne.jpeg" alt="Descripción de la imagen 2" class="image1 centered-image">
+                <img src="img/aldeano/carnicero.webp" alt="Otra descripción" class="image2 centered-image">
+            </div>
+        </div>
+        <div class="part">
+            <h1 id="Cartógrafo"><a href="#encabezado">Cartografo</a></h1>
+            <p>
+                Bloque de trabajo: Mesa de cartografía
+            </p>
+            <div class="centered-images-container">
+                <img src="img/comercio/mapas.jpeg" alt="Descripción de la imagen 2" class="image1 centered-image">
+                <img src="img/aldeano/cartografo.webp" alt="Otra descripción" class="image2 centered-image">
+            </div>
+        </div>
+        <div class="part">
+            <h1 id="Sacerdote"><a href="#encabezado">Sacerdote</a></h1>
+            <p>
+                Bloque de trabajo: Soporte para pociones
+            </p>
+            <div class="centered-images-container">
+                <img src="img/comercio/posion.jpeg" alt="Descripción de la imagen 2" class="image1 centered-image">
+                <img src="img/aldeano/sacerdote.webp" alt="Otra descripción" class="image2 centered-image">
+            </div>
+        </div>
+        <div class="part">
+            <h1 id="Granjero"><a href="#encabezado">Granjero</a></h1>
+            <p>
+                Bloque de trabajo: Compostador
+            </p>
+            <div class="centered-images-container">
+                <img src="img/comercio/granja.jpeg" alt="Descripción de la imagen 2" class="image1 centered-image">
+                <img src="img/aldeano/Granjero.webp" alt="Otra descripción" class="image2 centered-image">
+            </div>
+        </div>
+        <div class="part">
+            <h1 id="Pescador"><a href="#encabezado">Pescador</a></h1>
+            <p>
+                Bloque de trabajo: Barril
+            </p>
+            <div class="centered-images-container">
+                <img src="img/comercio/pescado.jpeg" alt="Descripción de la imagen 2" class="image1 centered-image">
+                <img src="img/aldeano/pescador.webp" alt="Otra descripción" class="image2 centered-image">
+            </div>
+        </div>
+        <div class="part">
+            <h1 id="Flechero"><a href="#encabezado">Flechero</a></h1>
+            <p>
+                Bloque de trabajo: Mesa de flechas
+            </p>
+            <div class="centered-images-container">
+                <img src="img/comercio/flechas.jpeg" alt="Descripción de la imagen 2" class="image1 centered-image">
+                <img src="img/aldeano/flechero.webp" alt="Otra descripción" class="image2 centered-image">
+            </div>
+        </div>
+        <div class="part">
+            <h1 id="Peletero"><a href="#encabezado">Peletero</a></h1>
+            <p>
+                Bloque de trabajo: Caldero
+            </p>
+            <div class="centered-images-container">
+                <img src="img/comercio/cuero.jpeg" alt="Descripción de la imagen 2" class="image1 centered-image">
+                <img src="img/aldeano/paletero.webp" alt="Otra descripción" class="image2 centered-image">
+            </div>
+        </div>
+        <div class="part">
+            <h1 id="Bibliotecario"><a href="#encabezado">Bibliotecario</a></h1>
+            <p>
+                Bloque de trabajo: Atril
+            </p>
+            <div class="centered-images-container">
+                <img src="img/comercio/libros.jpeg" alt="Descripción de la imagen 2" class="image1 centered-image">
+                <img src="img/aldeano/bibliotecario.webp" alt="Otra descripción" class="image2 centered-image">
+            </div>
+        </div>
+        <div class="part">
+            <h1 id="Albañil"><a href="#encabezado">Albañil</a></h1>
+            <p>
+                Bloque de trabajo: Cortapiedras
+            </p>
+            <div class="centered-images-container">
+                <img src="img/comercio/alba.jpeg" alt="Descripción de la imagen 2" class="image1 centered-image">
+                <img src="img/aldeano/albañil.webp" alt="Otra descripción" class="image2 centered-image">
+            </div>
+        </div>
+        <div class="part">
+            <h1 id="Herrero-de-herramientas"><a href="#encabezado">Herrero de herramientas</a></h1>
+            <p>
+                Bloque de trabajo: Mesa de herrería
+            </p>
+            <div class="centered-images-container">
+                <img src="img/comercio/picos.jpeg" alt="Descripción de la imagen 2" class="image1 centered-image">
+                <img src="img/aldeano/herramienta.webp" alt="Otra descripción" class="image2 centered-image">
+            </div>
+        </div>
+        <div class="part">
+            <h1 id="Herrero-de-armas"><a href="#encabezado">Herrero de armas</a></h1>
+            <p>
+                Bloque de trabajo: Afiladora
+            </p>
+            <div class="centered-images-container">
+                <img src="img/comercio/espada.jpeg" alt="Descripción de la imagen 2" class="image1 centered-image">
+                <img src="img/aldeano/armas.webp" alt="Otra descripción" class="image2 centered-image">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="piepagina">
+          <a href="../principal.html"><img src="./img/pagina/logoupiicsa.png" alt="logo"></a>
+          <h1>&copy SR & MZ</h1>
+        </div>
+    </footer>
+
+
+</body>
+</html>
