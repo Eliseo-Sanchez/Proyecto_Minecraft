@@ -1,0 +1,148 @@
+@font-face {
+	font-family: 'Minecraft';
+	src: url("../../style/minecraftfont.eot");
+	src: url("../../style/minecraftfont.woff") format("woff"), url("../../style/minecraft.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-image: url(img/wall.webp);
+  }
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+  
+  .back {
+    text-align: center;
+    padding: 10px;
+    background-image: url(img/banner2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .back img {
+    width: 32%;
+  }
+  div {
+    display: block;
+  }
+
+  .encabezado {
+    text-align: center;
+    background: linear-gradient(#232526, #bdc3c7);
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.encabezado h1 {
+    font-family: 'Minecraft';
+}
+
+.encabezadoo {
+	padding: 10px;
+	background: #232526;
+	text-align: center;
+}
+
+.encabezadoo img {
+	width: 32%
+}
+
+.title {
+    color: white;
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.minecraft-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.jugar{
+    background-color: 	#E3DAC9;
+    border: 5px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.tuto {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.jugar h1, p , ul{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.jugar h1{
+    font-size: 25px;
+    font-family: 'Minecraft';
+}
+
+.jugar p{
+    font-size: 18px;
+}
+
+.jugar ul{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.centered-image {
+    margin-bottom: 10%;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 3px solid black;
+}
+
+.piepagina {
+	padding: 10px;
+	background: linear-gradient(#203A43, #232526);
+	text-align: center;
+}
+
+.piepagina img {
+	width: 8%
+}
+
+footer h1 {
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	font-family: 'Minecraft';
+}
+
+@media only screen and (max-width: 991px) {
+    .back img {
+        width: 80%;
+    }
+
+    .centered-image {
+        width: 80%;
+        max-width: none;
+    }
+}
