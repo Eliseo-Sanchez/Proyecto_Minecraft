@@ -1,0 +1,188 @@
+header {
+	background: linear-gradient( #b20a2c, #fffbd5);
+	height: 145px;
+}
+
+header img {
+	height: 300px
+}
+
+nav {
+	position: absolute;
+	top: 70px;
+	right: 20px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 50px;;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 35px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.caja img{
+	width: 150px;
+	height: 150px;
+	margin: 5px;
+}
+
+.caja {
+	width: 940px;
+	position: relative;
+	margin: 0px auto;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+ul img {
+	width: 250px;
+	margin: 35px;
+}
+
+ul p {
+	font-weight: bold;
+}
+
+.habilidades {
+	margin: 30px;
+}
+
+.habilidades li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	border-color: #000000;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 20px;
+}
+
+.habilidades li:hover {
+	border-color: #C78C19;
+}
+
+.habilidades li:hover h2 {
+	font-size: 40px;
+}
+
+.temas {
+	text-align: center;
+	font-size: 30px;
+	margin: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.tipo {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+footer {
+	background: linear-gradient(#fffbd5, #b20a2c);
+	text-align: center;
+	padding: 13px;
+}
+
+footer h1 {
+	text-align: center;
+	font-size: 20px;
+}
+
+.nombre {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	background: radial-gradient(#fffbd5,#fffbd5, #b20a2c);
+}
+
+.escuela {
+	text-align: center;
+}
+
+.escuela {
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+	margin: 30px;
+}
+
+/* ------------- Contacto ------------ */
+.contacto {
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.contacto {
+	margin: 0 30px 20px 50px;
+}
+
+form {
+	margin: 40 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padron {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0px;
+	margin: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	background: orange;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 40px 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}

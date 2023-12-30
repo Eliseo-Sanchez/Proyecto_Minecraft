@@ -1,0 +1,102 @@
+@font-face {
+	font-family: 'Minecraft';
+	src: url("../../../style/minecraftfont.eot");
+	src: url("../../../style/minecraftfont.woff") format("woff"), url("../../../style/minecraft.ttf") format("truetype");
+}
+
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
+* {
+	font-family: 'Minecraft';
+}
+
+/*------------ FONDO PANORAMA ----------------*/
+
+body {
+	image-rendering: pixelated;
+	text-align: center;
+	font-family: 'Minecraft';
+	text-shadow: 0.2vw 0.2vw 0 #383838;
+	min-height: 100%;
+	margin: 0;  /*Utilizar reset*/
+}
+
+.panorama {
+	image-rendering: auto;
+	background: #303030 url("../imagenes/panorama.jpg") repeat-x 0 0;
+	background-size: cover;
+	animation: MinecraftBackground 180s linear infinite;
+	backdrop-filter: blur(5px);
+}
+
+@keyframes MinecraftBackground {
+	100% {
+		background-position-x: 1000%;
+	}
+}
+
+/*-----------------	MAIN -------------------*/
+
+/* Estilos para los contenedores y su disposición */
+.contenedor {
+	width: 45%;
+	float: left;
+	margin: 2.5%;
+	border: 1px solid #ccc;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.contenedor img {
+	width: 30%;
+	border-radius: 20px;
+}
+
+.contenedor h1 {
+	font-size: 28px;
+	color: white;
+}
+
+.contenedor p {
+	color: white;
+}
+
+.clear {
+	clear: both;
+}
+
+.contenido {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.boton {
+	margin-top: 10px;
+	text-align: center;
+	padding: 10px 40px;
+	text-decoration: none;
+
+	background: #7D7D7D url("../imagenes/botones.png") no-repeat center;
+	background-size: 100% 300%;
+	color: #E0E0E0;
+	font-size: 1.2vw;
+	outline: 0.2vw solid #000;
+	outline-offset: -0.2vw;
+}
+
+.boton:hover {
+	background: #7079AA url("../imagenes/botones.png") no-repeat bottom;
+	background-size: 100% 300%;
+	color: #FFFFA0;
+}
+
+.boton span {
+	vertical-align: middle; 
+}
+
+  
