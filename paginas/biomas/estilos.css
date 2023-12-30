@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-image: url(img/pagina/ffondo.webp);
+  }
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+  
+  .back {
+    text-align: center;
+    padding: 10px;
+    background-image: url(img/pagina/banner2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .back img {
+    width: 32%;
+  }
+  div {
+    display: block;
+  }
+  .encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: #333;
+    padding: 20px;
+    
+  }
+  
+  .texto {
+    width: 60%;
+  }
+  
+  .texto h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .texto p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .botones {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .boton-nev {
+    background-color: #e1eff5;
+    color: #fff;
+  }
+  
+  .boton-fri {
+    background-color: #83d2f1;
+    color: #fff;
+  }
+  
+  .boton-ex {
+    background-color: #29c524;
+    color: #fff;
+  }
+  
+  .boton-sec {
+    background-color: #e6dc59e8;
+    color: #fff;
+  }
+
+  .boton-oce {
+    background-color: #11acd3;
+    color: #fff;
+  }
+
+  .boton-net {
+    background-color: #c42929;
+    color: #fff;
+  }
+
+  .boton-end {
+    background-color: #6913da;
+    color: #fff;
+  }
+
+  .biomanevado{
+    background-image: url(img/pagina/nieve.avif);
+    padding: 10px 0;
+  }
+  .biomanevado h1,
+  .biomanevado p{
+    margin: 20px
+  }
+  .biomanevado p{
+    font-weight: bold;
+  }
+
+  .contenedor-tabla {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .tabla-bioma {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 10px; 
+    overflow: hidden; 
+  }
+  
+  .tabla-bioma th,
+  .tabla-bioma td {
+    border: 6px solid rgb(198, 198, 198); 
+    padding: 20px;
+    text-align: center;
+  }
+
+  .tabla-bioma td,
+  .tabla-bioma th {
+    background-color: rgb(139,139,139);
+  }
+  
+  .tabla-bioma td img {
+    width: 80%;
+  height: 80%;
+  display: block;
+  margin: 0 auto;
+  }
+
+  .tabla-bioma .celda-imagen {
+    width: 400px; 
+  }
+
+  .biomasfrios{
+    background-image: url(img/pagina/frios.jpeg);
+    padding: 10px 0;
+  }
+  .biomasfrios h1,
+  .biomasfrios p{
+    margin: 20px
+  }
+  .biomasfrios p{
+    font-weight: bold;
+  }
+
+  .biomasexuberante{
+    background-image: url(img/pagina/exuberante.jpeg);
+    padding: 10px 0;
+  }
+  .biomasexuberante h1,
+  .biomasexuberante p{
+    margin: 20px
+  }
+  .biomasexuberante p{
+    font-weight: bold;
+  }
+  .biomassecos{
+    background-image: url(img/pagina/secos.jpeg);
+    padding: 10px 0;
+  }
+  .biomassecos h1,
+  .biomassecos p{
+    margin: 20px
+  }
+  .biomassecos p{
+    font-weight: bold;
+  }
+
+  .biomasoceano{
+    background-image: url(img/pagina/oceano2.jpeg);
+    padding: 10px 0;
+  }
+  .biomasoceano h1,
+  .biomasoceano p{
+    margin: 20px
+  }
+  .biomasoceano p{
+    font-weight: bold;
+  }
+
+  .biomasnether{
+    background-image: url(img/pagina/Netherrack.webp);
+    padding: 10px 0;
+  }
+  .biomasnether h1,
+  .biomasnether p{
+    margin: 20px
+  }
+  .biomasnether p{
+    font-weight: bold;
+  }
+
+  .biomasend{
+    background-image: url(img/pagina/endb.jpeg);
+    padding: 10px 0;
+  }
+  .biomasend h1,
+  .biomasend p{
+    margin: 20px
+  }
+  .biomasend p{
+    font-weight: bold;
+  }
+
+  .piepagina {
+    padding: 10px;
+    background: #232526;
+    text-align: center;
+  }
+  
+  .piepagina img {
+    width: 8%
+  }
+  
+  footer h1 {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    font-family: 'Minecraft';
+  }
+
+  @media screen and (max-width: 991px) {
+    .back img {
+      width: 100%; /* Cambiado a ocupar el 100% del ancho en dispositivos móviles */
+    }
+  
+    .tabla-bioma th,
+    .tabla-bioma td {
+      padding: 8px; /* Ajustado el espacio interno de las celdas para dispositivos móviles */
+    }
+  
+    .botones {
+      flex-direction: column; /* Cambiado a dirección de columna para dispositivos móviles */
+    }
+  
+    button {
+      margin-right: 0;
+    }
+  
+    .contenedor-tabla {
+      margin-left: 5px;  /* Ajustado el margen para dispositivos móviles */
+      margin-right: 5px; /* Ajustado el margen para dispositivos móviles */
+    }
+  }
+
