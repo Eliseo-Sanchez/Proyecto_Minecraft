@@ -24,10 +24,9 @@
 
     padding: 25px 0;
     
-	background-image: url(imagenes/fondo.jpg);
+	background-image: url(imagenes/fondoespadas.jpg);
     background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	
 }
 
 .fondo h1 {
@@ -74,7 +73,10 @@
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 20px;
-    background: linear-gradient(#1a7e75, #6DD5FA);
+    background-image: url(imagenes/fondoazul.avif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .crafteoarcoyflechas {

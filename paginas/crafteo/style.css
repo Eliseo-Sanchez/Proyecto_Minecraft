@@ -37,7 +37,11 @@
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 20px;
-    background: linear-gradient(#6DD5FA, #2980B9);
+    /*background: linear-gradient(#6DD5FA, #2980B9);*/
+	background-image: url(imagenes/fondocafe.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .fondo h1 {
