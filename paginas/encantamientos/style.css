@@ -1,0 +1,149 @@
+@font-face {
+	font-family: 'Minecraft';
+	src: url("../../style/minecraftfont.eot");
+	src: url("../../style/minecraftfont.woff") format("woff"), url("../../style/minecraft.ttf") format("truetype");
+}
+
+/*----------------------- ENCABEZADO --------------------------*/
+
+.encabezado {
+	padding: 10px;
+	background: #232526;
+	text-align: center;
+}
+
+.encabezado img {
+	width: 32%
+}
+
+/*----------------------- MESA DE ENCANTAMIENTOS --------------------------*/
+.fondomesa {
+    justify-content: center;
+    align-items: center;
+
+    padding: 25px 0;
+    
+    background-image: url(imagenes/fondoencantamientos.jpg);
+    background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mesaencantamientos {
+    text-align: center;
+    
+    width: 70%;
+    margin: 15px auto; /* Centra verticalmente y con márgenes automáticos horizontalmente */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.mesaencantamientos h1{
+    font-size: 35px;
+    font-family: 'Minecraft';
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.mesaencantamientos h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.mesa {
+    width: 15%;
+}
+
+.mesamax {
+    width: 70%;
+}
+
+.utilizarmesa {
+    width: 70%;
+    margin-top: 20px;
+}
+
+.mesaencantamientos p {
+    margin: 15px;
+    font-size: 20px;
+}
+
+.lista {
+    font-size: 18px;
+}
+
+/*----------------------- YUNKE --------------------------*/
+
+.yunke {
+    text-align: center;
+    
+    width: 70%;
+    margin: 15px auto; /* Centra verticalmente y con márgenes automáticos horizontalmente */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.yunke h1{
+    font-size: 35px;
+    font-family: 'Minecraft';
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.imgyunke {
+    width: 20%;
+}
+
+.yunke p {
+    margin: 15px;
+    font-size: 20px;
+}
+
+.imagenesyunke {
+    width: 60%;
+}
+
+/*----------------------- TODOS LOS ENCANTAMIENTOS --------------------------*/
+
+.todos {
+    text-align: center;
+    
+    width: 70%;
+    margin: 15px auto; /* Centra verticalmente y con márgenes automáticos horizontalmente */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.todos h1 {
+    font-size: 30px;
+    font-family: 'Minecraft';
+    margin: 10px;
+}
+
+/*----------------------- PIE DE PAGINA --------------------------*/
+
+.piepagina {
+	padding: 10px;
+	background: #232526;
+	text-align: center;
+}
+
+.piepagina img {
+	width: 8%
+}
+
+footer h1 {
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	font-family: 'Minecraft';
+}

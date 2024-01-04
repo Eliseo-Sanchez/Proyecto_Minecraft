@@ -1,0 +1,92 @@
+@font-face {
+	font-family: 'Minecraft';
+	src: url("../../style/minecraftfont.eot");
+	src: url("../../style/minecraftfont.woff") format("woff"), url("../../style/minecraft.ttf") format("truetype");
+}
+
+/*----------------------- ENCABEZADO --------------------------*/
+
+.encabezado {
+	padding: 10px;
+	background: #232526;
+	text-align: center;
+}
+
+.encabezado img {
+	width: 32%
+}
+
+/*----------------------- MODOS --------------------------*/
+
+.fondomodos {
+    justify-content: center;
+    align-items: center;
+
+    padding: 25px 0;
+    
+    background-image: url(imagenes/fondopaisaje.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*----------------------- CONTENEDORES --------------------------*/
+
+.modosjuego {
+    text-align: center;
+    
+    width: 70%;
+    margin: 15px auto; /* Centra verticalmente y con márgenes automáticos horizontalmente */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-image: url(imagenes/fondo.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fondomodos h1{
+    font-size: 30px;
+    font-family: 'Minecraft';
+    color: white;
+    font-weight: bold;
+}
+
+.fondomodos img{
+    width: 60%;
+    margin: 20px;
+}
+
+.fondomodos p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.dificultades h2 {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+/*----------------------- PIE DE PAGINA --------------------------*/
+
+.piepagina {
+	padding: 10px;
+	background: #232526;
+	text-align: center;
+}
+
+.piepagina img {
+	width: 8%
+}
+
+footer h1 {
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	font-family: 'Minecraft';
+}

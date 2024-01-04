@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'Minecraft';
+	src: url("../../style/minecraftfont.eot");
+	src: url("../../style/minecraftfont.woff") format("woff"), url("../../style/minecraft.ttf") format("truetype");
+}
+
+/*----------------------- ENCABEZADO --------------------------*/
+
+.encabezado {
+	padding: 10px;
+	background: #232526;
+	text-align: center;
+}
+
+.encabezado img {
+	width: 32%
+}
+
+/*----------------------- PRICIPAL --------------------------*/
+
+.fondo {
+	justify-content: center;
+    align-items: center;
+
+    padding: 25px 0;
+    
+	background-image: url(imagenes/fondomesa.jpg);
+    background-position: center;
+}
+
+.principal {
+	/*text-align: center;*/
+    
+    width: 70%;
+    margin: 15px auto; /* Centra verticalmente y con márgenes automáticos horizontalmente */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background: linear-gradient(#6DD5FA, #2980B9);
+}
+
+.fondo h1 {
+	font-size: 35px;
+	font-family: 'Minecraft';
+	text-align: center;
+}
+
+.fondo p {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.fondo h2 {
+	font-size: 30px;
+	font-family: 'Minecraft';
+	padding-top: 15px;
+}
+
+.fondo h3 {
+	font-size: 20px;
+	font-family: 'Minecraft';
+	padding: 30px 0 15px 0;
+}
+
+
+.imgcuadricula {
+	width: 70%;
+}
+
+.interfazmesa {
+	width: 30%;
+}
+
+/*----------------------- BOTON--------------------------*/
+
+.botoncrafteos {
+	text-align: center;
+}
+
+.boton {
+	width: 20%;
+	padding: 15px 0px;
+	margin: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	background: green;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	font-family: 'Minecraft';
+}
+
+.boton:hover {
+	background: #1F1C2C;
+	transform: scale(1.2);
+}
+
+/*----------------------- PIE DE PAGINA --------------------------*/
+
+.piepagina {
+	padding: 10px;
+	background: #232526;
+	text-align: center;
+}
+
+.piepagina img {
+	width: 8%
+}
+
+footer h1 {
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	font-family: 'Minecraft';
+}
