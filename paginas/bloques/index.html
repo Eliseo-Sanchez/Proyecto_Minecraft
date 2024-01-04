@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../imagenes/principal/bloques.gif">
+    <link rel="stylesheet" href="estilos.css" />
+    <title>BLOQUES</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="back">
+            <a href="../principal.html">
+                <img src="img/pag/mineloogo.png" alt="Imagen Central" />
+            </a>
+        </div>
+    </header>
+    <!--ENCABEZADO-->
+    <div class="encabezado" id="encabezado">
+        <div class="texto">
+            <h1>Bloque</h1>
+            <p>
+                Un bloque es la unidad básica de la estructura de un mundo de Minecraft, que puede ser tanto colocado
+                como roto, así como servir como recurso y material. Los bloques presentan formas poligonales, y cumplen
+                diversos roles dependiendo de su tipo.
+            </p>
+            <p>
+                Los bloques están dispuestos en una cuadrícula tridimensional de celdas de 1 metro cúbico. Cada celda
+                generalmente contiene exactamente un bloque, como la tierra o la roca, pero existen excepciones con
+                formas variadas, como las losas o los atriles.
+            </p>
+            <p>
+                Ciertos bloques pueden interpretar posiciones en las que no se pueden colocar por medios normales como
+                una posición válida. Por ejemplo, un letrero colocado en el aire a través de /setblock o a través de
+                errores permanece en el aire incluso cuando se actualiza, hasta que se rompe o se coloca un bloque
+                debajo de él y se rompe.
+            <div class="lista">
+                <ul>
+                    <li><a href="#Tipos">Tipos</a></li>
+                    <li><a href="#Transparencia">Transparencia</a></li>
+                    <li><a href="#Luz">Luz</a></li>
+                    <li><a href="#Gravedad">Gravedad</a></li>
+                    <li><a href="#Rotura">Rotura</a></li>
+                    <li><a href="#Explosiones">Explosiones</a></li>
+                    <li><a href="#Aire">Aire</a></li>
+                    <li><a href="#Tamaño-de-bloque">Tamaño de bloque</a></li>
+                    <li><a href="#Texturas">Texturas</a></li>
+                    <li><a href="#Clasificación">Clasificación</a></li>
+                </ul>
+            </div>
+            </p>
+        </div>
+        <img class="imagenn" src="img/pag/bloq.webp" alt="Imagen Principal">
+    </div>
+    <!--BLOQUES-->
+    <div class="bloques">
+        <div class="part">
+            <h1 id="Tipos"><a href="#encabezado">Tipos</a></h1>
+            <p>
+                En general, construyen el entorno del juego, y la mayoría se puede recolectar y utilizar de varias
+                maneras. Minecraft posee tres tipos principales de bloques:
+            </p>
+            <p>
+            <ul>
+                <li>Bloques sólidos: cumplen la labor de un cuerpo sólido, estáticos y no pueden ser atravesados por
+                    entidades.</li>
+                <li>Bloques no sólidos: cumplen la labor de un cuerpo sólido, estáticos, y pueden ser atravesados por
+                    entidades.</li>
+                <li>Fluidos: cumplen la labor de un cuerpo fluido, se expanden, y pueden ser atravesados por.</li>
+            </ul>
+            </p>
+            <img src="img/cuerpo/tipos.webp" alt="Descripción de la imagen 2" class="centered-image">
+        </div>
+        <div class="part">
+            <h1 id="Transparencia"><a href="#encabezado">Transparencia</a></h1>
+            <p>
+                Los bloques poseen el concepto de transparencia, que es la capacidad de algunos bloques de permitir al
+                jugador y a las entidades ver a otras entidades a través de ellos. Este concepto se divide en tres tipos
+                de transparencia:
+            </p>
+            <p>
+            <ul>
+                <li>Bloques transparentes: permiten ver al jugador a través de ellos sin difuminar su visión.</li>
+                <li>Bloques traslúcidos: permiten ver al jugador a través de ellos, pero difuminan su capacidad de
+                    visión</li>
+                <li>Bloques opacos: no permiten ver al jugador a través de ellos.</li>
+            </ul>
+            </p>
+            <img src="img/cuerpo/paneles.webp" alt="Descripción de la imagen 2" class="centered-image">
+        </div>
+        <div class="part">
+            <h1 id="Luz"><a href="#encabezado">Luz</a></h1>
+            <p>
+                Algunos bloques emiten luz. Dependiendo del bloque, esta puede tener una intensidad en niveles que van
+                del 0 al 15, donde la intensidad 0 no emite luz y la intensidad 15 da la mayor cantidad de luz. Unos
+                ejemplos de estos bloques son los faroles o las antorchas.
+            </p>
+            <p>
+                Los bloques opacos bloquean completamente la luz, mientras que los bloques transparentes permiten que
+                pase completamente y los traslúcidos permiten que pase parcialmente. Los bloques traslúcidos degradan la
+                luz un nivel en Java Edition o una cantidad mayor de niveles en Bedrock Edition, dependiendo del bloque.
+            </p>
+            <img src="img/cuerpo/luz.webp" alt="Descripción de la imagen 2" class="centered-image">
+        </div>
+        <div class="part">
+            <h1 id="Gravedad"><a href="#encabezado">Gravedad</a></h1>
+            <p>
+                Casi todos los bloques ignoran la gravedad, manteniendo su posición. Sin embargo, hay algunos bloques
+                que no pueden mantenerse en su posición, y caen al suelo(ejemplo son la grava y arena). Cuando caen, se
+                convierten en una entidad con
+                la misma apariencia del bloque, la cual cae hasta hacer colisión con una superficie.
+            </p>
+            <p>
+                Si esta superficie es un bloque sólido, tiene que tener la altura y/o posición necesaria para servir de
+                base (ejemplos son la piedra, o losas en posición superior). Los bloques no sólidos o bloques sólidos
+                mal posicionados o sin la altura necesaria provocarán que la entidad al caer suelte el bloque como un
+                objeto.
+            </p>
+            <img src="img/cuerpo/gravedad.webp" alt="Descripción de la imagen 2" class="centered-image">
+        </div>
+        <div class="part">
+            <h1 id="Rotura"><a href="#encabezado">Rotura</a></h1>
+            <p>
+                Cuando se rompen, los bloques emiten sonidos y partículas asociados con ellos mismos, excepto en los
+                siguientes casos:
+            </p>
+            <p>
+            <ul>
+                <li>Cuando el bloque es eliminado por un pistón.</li>
+                <li>En Java Edition, si el bloque es afectado por gravedad y cae en un espacio inválido (si el bloque se
+                    basa en la gravedad y se suelta por una antorcha, por ejemplo).</li>
+                <li>Yunques que se destruyen al acabarse su durabilidad o al caer. Solo las partículas faltan en este
+                    caso.</li>
+                <li>Si el bloque se puede romper por fluidos y es roto por un fluido en movimiento.</li>
+                <li>Si el bloque puede ser reemplazado por otros bloques y se reemplaza.</li>
+                <li>Si el bloque es uno de pocos bloques, como raíles o polvo de redstone, se apoya en otro bloque y se
+                    quita su bloque de soporte.</li>
+                <li>Si el bloque son hojas y se descompone hasta desaparecer.</li>
+            </ul>
+            </p>
+            <img src="img/cuerpo/roptura.gif" alt="Descripción de la imagen 2" class="centered-image">
+        </div>
+        <div class="part">
+            <h1 id="Explosiones"><a href="#encabezado">Explosiones</a></h1>
+            <p>
+                Todos los bloques están sujetos a las explosiones, las cuales destruyen algunos bloques más fácilmente
+                que otros.
+            </p>
+            <img src="img/cuerpo/Minecraft-tnt-explosion.gif" alt="Descripción de la imagen 2" class="centered-image">
+        </div>
+        <div class="part">
+            <h1 id="Aire"><a href="#encabezado">Aire</a></h1>
+            <p>
+                El aire es un bloque especial. Actúa como un bloque transparente irrompible, así como un sustituto para
+                la ausencia de bloques. Además, en Java Edition posee dos variantes: aire de cueva y aire de vacío,
+                usados en cuevas y el vacío, respectivamente.
+            </p>
+        </div>
+        <div class="part">
+            <h1 id="Tamaño-de-bloque"><a href="#encabezado">Tamaño de bloque</a></h1>
+            <p>
+                La mayoría de los bloques sólidos tienen 1 metro de altura (3,28084 pies o 1250⁄381 pies), pero varios
+                bloques tienen alturas de bloque no estándar, como las capas de nieve.
+            </p>
+            <p>
+                Un jugador puede subir automáticamente de una altura más baja a una más alta si la diferencia es como
+                máximo 0.6 (3⁄5) de un bloque o 1.9685.. pies (250⁄127 pies).
+            </p>
+        </div>
+        <div class="part">
+            <h1 id="Texturas"><a href="#encabezado">Texturas</a></h1>
+            <p>
+                Las texturas en las caras de los bloques son de 16 × 16 pixeles. La mayoría de los bloques son
+                proporcionalmente un metro cúbico por defecto, pero su forma se puede cambiar usando modelos. La mayoría
+                de los bloques tienen texturas estáticas, pero estos bloques están animados:
+            </p>
+            <p>
+            <ul>
+                <li>Agua</li>
+                <li>Lava</li>
+                <li>Portal del Nether (bloque)</li>
+                <li>Portal del End (bloque)</li>
+                <li>Nexo del End (bloque)</li>
+                <li>Prismarina y sus variantes de losa, escaleras y muro</li>
+                <li>Linterna marina</li>
+                <li>Bloque de magma</li>
+                <li>Hierba marina baja y alta</li>
+                <li>Alga</li>
+                <li>Fuego y fuego de almas</li>
+                <li>Farol y farol de almas</li>
+                <li>Hoguera y hoguera de almas (encendidas)</li>
+                <li>Alto horno (encendido)</li>
+                <li>Bloque de calor (solo de Bedrock y Education)</li>
+                <li>Tallo distorsionado y carmesí</li>
+                <li>Hifas distorsionados y carmesí</li>
+                <li>Ahumador (encendido)</li>
+                <li>Cortapiedras</li>
+                <li>Bloque de comandos de impulso, repetición y cadena.</li>
+            </ul>
+            </p>
+            <p>
+                Usando paquetes de recursos, el jugador puede cambiar las texturas y la resolución de los bloques,
+                incluso si su textura es animada. También pueden cambiar las formas de los bloques usando modelos y el
+                tamaño de los bloques a cualquier tamaño con igual ancho y alto, aunque los tamaños que tienen una
+                potencia de dos tienden a funcionar mejor.
+            </p>
+            <img src="img/cuerpo/texturas.jpg" alt="Descripción de la imagen 2" class="centered-image">
+        </div>
+        <div class="part">
+            <h1 id="Clasificación"><a href="#encabezado">Clasificación</a></h1>
+            <p>
+                <strong>Normales:</strong> Estos bloques son los que un jugador puede hallar en un mundo normalmente.
+            <ul>
+                <li>Se pueden obtener desde el inventario del modo creativo.</li>
+                <li>Algunos se pueden obtener solo con comandos.</li>
+                <li>Tienen forma de bloque (y no objeto) directa en el inventario.</li>
+            </ul>
+            </p>
+            <p>
+                <strong>Técnicos:</strong> Los bloques técnicos sirven para varios propósitos durante los eventos dentro
+                del juego, o usan una ID separada con espacio de nombre para evitar combinaciones innecesarias de
+                estados de bloque.
+            <ul>
+                <li>En Java Edition estos bloques no existen como objetos, pero en Bedrock Edition pueden obtenerse
+                    usando editores de inventario o addons.</li>
+                <li>Algunos de estos bloques tienen diferentes representaciones en el inventario.
+                    <p>
+                    <ul>
+                        <li>El mechero se utiliza para colocar fuego.</li>
+                        <li>El agua y la lava se pueden colocar con sus respectivos cubos.</li>
+                        <li>Las puertas, pasteles y macetas tienen objetos de inventario separados.</li>
+                    </ul>
+                    </p>
+                </li>
+            </ul>
+            </p>
+            <p>
+                <strong>Educativos:</strong> Los bloques educativos sirven para complementar la enseñanza y el
+                aprendizaje usando Minecraft.
+            <ul>
+                <li>Solo se hallan en en Minecraft Education por defecto y en Bedrock Edition cuando las opciones de
+                    educación están habilitadas.</li>
+                <li>En Bedrock Edition, los tableros, carteles y pizarras solo se pueden obtener a través de editores de
+                    inventario.</li>
+            </ul>
+            </p>
+            <p>
+                <strong>Eliminados:</strong> Los bloques eliminados ya no existen en las versiones actuales del juego.
+                Se subdividen en:
+            <ul>
+                <li>Bloques eliminados por completo: estos bloques fueron eliminados del juego por completo.</li>
+                <li>Eliminado por sustitución: estos bloques fueron "reconfigurados" en otros bloques a través de un
+                    importante cambio simultáneo de nombre y textura.</li>
+                <li>Variantes extremas de metadatos: algunos bloques y estados de bloques se distinguían mediante
+                    metadatos numéricos en versiones anteriores del juego. Tener valores de metadatos fuera del rango
+                    aceptado podía producir resultados no deseados para algunas ID de bloque.</li>
+            </ul>
+            </p>
+            <p>
+                <strong>Broma:</strong> Estos bloques solo existen en versiones de broma del juego, y son chistes
+                realizados por los desarrolladores en versiones publicadas el primero de abril.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="piepagina">
+          <a href="../principal.html"><img src="./img/pag/logoupiicsa.png" alt="logo"></a>
+          <h1>&copy SR & MZ</h1>
+        </div>
+    </footer>
+
+</body>
+</html>
