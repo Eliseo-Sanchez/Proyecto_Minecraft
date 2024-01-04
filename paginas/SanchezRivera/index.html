@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>MINECRAFT</title>
+	<title>SANCHEZ RIVERA</title>
 	<link rel="stylesheet" href="style/reset.css">
 	<link rel="stylesheet" href="style/principal.css">
 </head>
@@ -29,16 +29,26 @@
 
 	<main>
 
-		<div class="escuela">
-			<img src="imagenes/escuela.jpg" alt="">
-			<br><br>
-
-			<h2>Mi nombre es Cristian Eliseo Sanchez Rivera.</h2>
-			Soy estudiante de Licenciatura en Ciencias de la Informatica en UPIICSA, ubicada en CDMX.
-			
+		<div class="fondo">
+			<br>
+			<div class="mifoto">
+				<img src="imagenes/yo00.jpg" alt="">
+				<br><br>
+	
+				<h2>Mi nombre es Cristian Eliseo Sanchez Rivera.</h2>
+				Estudiante de 21 años, egresado del cbtis no.29
+				
+			</div>
+	
+			<div class="escuela">
+				<img src="imagenes/escuela.jpg" alt="">
+				<br><br>
+	
+				Soy estudiante de Licenciatura en Ciencias de la Informatica en UPIICSA, ubicada en CDMX.
+				
+			</div>
+			<br>
 		</div>
-
-
 
 		<HR></HR>
 
@@ -66,50 +76,53 @@
 	<HR></HR>
 	<br><br>
 
+	<div class="fondocontacto">
+		<br>
+		<form class="contacto">
+
+			<h1 id="contacto" class="temas">CONTACTO</h1>
 	
+			<label for="nombreApellido">Nombre Y Apellido</label>
+			<input type="text" id="nombreApellido" class="input-padron" required >
+	
+			<label for="correoElectronico">Correo Electronico</label>
+			<input type="email" id="correoElectronico" class="input-padron" required placeholder="email@dominio.com"> 
+	
+			<label for="telefono">Telefono</label>
+			<input type="tel" id="telefono" class="input-padron" required placeholder="(xx)-xxxx-xxxx">
+	
+			<label for="mensaje">Mensaje</label>
+			<textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+	
+			<fieldset>
+				<legend>¿Como le gustaria ser contactado? </legend>
+	
+				<label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email"> email</label>
+				<label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono"> Telefono</label>
+				<label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+			</fieldset>
+	
+			<fieldset>
+				<legend>¿Que horario desea?</legend>
+				<select>
+					<option>Mañana</option>
+					<option>Tarde</option>
+					<option>Noche</option>
+				</select>
+			</fieldset>
+	
+			<label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades?</label>
+	
+			<input type="submit" value="Enviar Formulario" class="enviar">
+	
+		</form>
+		<br>
+	</div>
 
-	<form class="contacto">
-
-		<h1 id="contacto" class="temas">CONTACTO</h1>
-
-		<label for="nombreApellido">Nombre Y Apellido</label>
-		<input type="text" id="nombreApellido" class="input-padron" required >
-
-		<label for="correoElectronico">Correo Electronico</label>
-		<input type="email" id="correoElectronico" class="input-padron" required placeholder="email@dominio.com"> 
-
-		<label for="telefono">Telefono</label>
-		<input type="tel" id="telefono" class="input-padron" required placeholder="(xx)-xxxx-xxxx">
-
-		<label for="mensaje">Mensaje</label>
-		<textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
-
-		<fieldset>
-			<legend>¿Como le gustaria ser contactado? </legend>
-
-			<label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email"> email</label>
-			<label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono"> Telefono</label>
-			<label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
-		</fieldset>
-
-		<fieldset>
-			<legend>¿Que horario desea?</legend>
-			<select>
-				<option>Mañana</option>
-				<option>Tarde</option>
-				<option>Noche</option>
-			</select>
-		</fieldset>
-
-		<label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades?</label>
-
-		<input type="submit" value="Enviar Formulario" class="enviar">
-
-	</form>
 
 	<footer>
 		<img src="imagenes/logoipn.png">
-		<h1>&copy Todos los derechos a Cristian Sanchez</h1>
+		<h1>&copy Cristian Sanchez</h1>
 	</footer>
 
 </body>

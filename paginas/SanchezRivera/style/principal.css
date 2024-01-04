@@ -1,6 +1,9 @@
 header {
-	background: linear-gradient( #b20a2c, #fffbd5);
-	height: 145px;
+	background-image: url(../imagenes/fondoheader.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
 }
 
 header img {
@@ -26,8 +29,8 @@ nav a {
 }
 
 .caja img{
-	width: 150px;
-	height: 150px;
+	width: 180px;
+	height: 180px;
 	margin: 5px;
 }
 
@@ -91,9 +94,13 @@ ul p {
 }
 
 footer {
-	background: linear-gradient(#fffbd5, #b20a2c);
 	text-align: center;
 	padding: 13px;
+
+	background-image: url(../imagenes/fondofooter.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 footer h1 {
@@ -105,7 +112,30 @@ footer h1 {
 	text-align: center;
 	font-size: 25px;
 	font-weight: bold;
-	background: radial-gradient(#fffbd5,#fffbd5, #b20a2c);
+	
+	
+	background-image: url(../imagenes/fondoazul.avif);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*--------------------- --------------------------------*/
+
+.mifoto {
+	text-align: center;
+}
+
+.mifoto {
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+	margin: 30px;
+}
+
+.mifoto img {
+	width: 20%;
 }
 
 .escuela {
@@ -114,10 +144,24 @@ footer h1 {
 
 .escuela {
     box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
-    background-color: var(--blanco);
+    background-color: white;
     padding: 2rem;
     border-radius: 1rem;
 	margin: 30px;
+}
+
+.fondo {
+	background-image: url(../imagenes/fondo2.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fondocontacto {
+	background-image: url(../imagenes/fondo2.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /* ------------- Contacto ------------ */
